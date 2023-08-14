@@ -1,4 +1,5 @@
 import {createGlobalStyle, styled} from "styled-components";
+import {primaryColor, primaryDarkColor} from "../config/colors";
 
 export default createGlobalStyle`
     * {
@@ -10,7 +11,8 @@ export default createGlobalStyle`
 
     body {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        background: #eee;
+        background: ${primaryDarkColor};
+        color: ${primaryDarkColor};
     }
 
     html, body, #root {
@@ -19,6 +21,12 @@ export default createGlobalStyle`
 
     button {
         cursor: pointer;
+        background: ${primaryColor};
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: 700;
     }
 
     a {
