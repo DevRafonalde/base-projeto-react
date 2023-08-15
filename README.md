@@ -1,3 +1,3 @@
 # base-projeto-react
 
-Um repositório para o básico de início de um projeto em react
+Um repositório de configurações básicas para o início de um projeto em react
