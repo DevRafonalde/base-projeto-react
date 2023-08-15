@@ -32,7 +32,7 @@ module.exports = {
         "no-console": "off",
         quotes: ["error", "double"],
         "class-methods-use-this": 0,
-        indent: ["error", 4],
+        indent: ["error", 4, {ignoredNodes: ["SwitchCase"]}],
         "object-curly-spacing": ["error", "never"],
         "keyword-spacing": [
             "error",
